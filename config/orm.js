@@ -17,7 +17,7 @@ var orm = {
         console.log(query.sql);
     },
     updateOne: function(tableInput, colName, condition, cb){
-        var queryString = "UPDATE ?? SET ?? = true WHERE ?";
+        var queryString = "UPDATE ?? SET ?? = true WHERE id = ?";
         var query = connection.query(queryString, [tableInput, colName, condition], function(err, result){
             if(err){throw err;}
             cb(result);

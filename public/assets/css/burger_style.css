@@ -1,3 +1,46 @@
 header{
-    margin: 0 auto
+    margin-left: 25%;
+    margin-bottom: 10px
+}
+
+h1{
+    margin-left: 20%
+}
+
+img{
+    margin-left: 5%
+}
+
+#Uneaten{
+    float: left;
+    clear: both;
+    margin-left: 20%;
+    background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    opacity: 0.9;
+}
+
+#Eaten{
+    float: right;
+    margin-right: 20%;
+    background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    opacity: 0.9;
+}
+
+#add-a-burger{
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+    margin-left: 40%
+}
+
+.form-group{
+    margin-bottom: 10px
+}
+
+body{
+    background-image: url(../img/burger.jpg);
 }
